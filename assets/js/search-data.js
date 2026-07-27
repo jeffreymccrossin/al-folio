@@ -9,7 +9,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "post-a-post-with-plotly-js",
+  },{id: "nav-contact",
+          title: "contact",
+          description: "Get in touch for research, clinical, teaching, or collaboration inquiries.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/contact/";
+          },
+        },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
@@ -449,13 +456,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("/assets/html/Jeffrey_McCrossin_CV_2026.html", "_blank");
-        },
-      },{
-        id: 'social-email',
-        title: 'email',
-        section: 'Socials',
-        handler: () => {
-          window.open("mailto:%6D%63%63%72%6F%73%73%6A@%6D%63%6D%61%73%74%65%72.%63%61", "_blank");
         },
       },{
         id: 'social-linkedin',
